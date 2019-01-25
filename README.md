@@ -72,11 +72,11 @@ Por el motivo anterior es que quisimos desarrollar un sitio web que fuera enfoca
 
 ******
  
-Comenzamos con una búsqueda online para conocer las aplicaciones disponibles que den información dirigida a niños.  Revisamos sitios como Discovery Kids, Nickelodeon y Disney Junior (ver imagen).
+Comenzamos con una búsqueda online para conocer las aplicaciones disponibles que den información dirigida a niños.  Vimos sitios como Discovery Kids, Nickelodeon y Disney Junior (ver imagen).
 
 ![enter image description here](https://lh3.googleusercontent.com/wzvI3xGeUF5TdxnBYTJ5SaPNuiqFIvDbSegud5w6mqWwYVUFsA4V-WScydwKaJoeUc0GvOz4sZJP "Inspiration board")
   
-A partir de esta revisión y literatura del tema (Ver [link](http://www.torresburriel.com/weblog/2016/08/18/diseno-de-interfaces-para-ninos/)) encontramos información necesaria para tomar decisiones de diseño:
+A partir de esta revisión y literatura sobre tema (Ver [link](http://www.torresburriel.com/weblog/2016/08/18/diseno-de-interfaces-para-ninos/)) encontramos información necesaria para tomar decisiones de diseño:
 
 **Diseño Visual:** linea gráfica simple, sin mucho texto, con botones accesibles.
 **Color:** la paleta de colores de las páginas para niños utilizan colores fuertes y llamativos. 
@@ -103,10 +103,8 @@ USER PERSONA
 
 
 
-## Historias de Usuario
 
-### Definitions of done
-  
+## Historias de Usuario  
 
 Aqui desarrollamos las historias de usuario de nuestro producto, acompañadas de sus criterios de aceptación.
 
@@ -177,6 +175,15 @@ Realizamos una planificación al comienzo del proyecto y volvimos a él cada dos
 
 Y analógicamente en el tablero proporcionado en Laboratoria.
 
+### Definitions of done
+- [ ] Las historias de usuario cumplen los criterios de aceptación.
+- [ ] Cada historia de usuario 
+- [ ] Los datos guardados en la base de datos han sido verificados.
+- [ ] El software que se esta entregando tiene calidad productiva.
+- [ ] Cumple parámetros básicos para ser utilizado.
+- [ ] Los link a paginas externas funcinan correctamente.
+- [ ] La resolucion en la pantalla del usuario funciona correctamente.
+- [ ] El producto es responsive.
 
 ## Stage 3 - Testeos con usuarios
 
@@ -193,19 +200,15 @@ A partir de est
  
 Realizamos testeos en diferentes momentos del proyecto:
 
-1) el primero, ya descrito, ocurrió inmediatamente tras comenzar el desafío, entrevistando a tres compañeras, respecto a la información más relevante de los otorgados por la data, a partir de esta información pudimos definir al usuario de la aplicación.
+1) El primero, ya descrito, ocurrió luego comenzar el desafío, buscando informacion en la web que nos llevara a encontrar un problema para ofrecer luego una solución, buscamos la disponibilidad y usabilidad de la data respecto a la información más relevante , a partir de esta información pudimos definir al usuario de la aplicación.
 
-2) el segundo testeo, también mencionado previamente, corresponde al momento de compartir el prototipo de baja fidelidad entre compañeras, de modo de compartir ideas y resolver dudas iniciales. A partir de este proceso, decidimos enfocarnos
+2) El segundo testeo fue después de realizar la encuesta  para saber en base a que se iba a trtabajar, se compartio el prototipo de baja fidelidad entre compañeras y niños a  modo de compartir ideas y resolver dudas iniciales. A partir de este proceso, decidimos enfocarnos.
 
-3) testeo on usuarios externos. Se realizó 1 entrevistas con usuarios para testear el demo de la aplicación. Se les indicó una tarea a realizar interactuando con el prototipo y luego una pequeña entrevista para recopilar información.
-
-
-La tarea otorgada al usuario fue la siguiente:
-
-> Imagina que Necesitas conocer las características de cierto Pokémon de la Región de Kanto. Sabes que el Pokémon es de tipo Grass y su
+3) testeo con usuarios externos. Se realizaron entrevistas con usuarios para testear el demo de la aplicación. Se les indicó una tarea a realizar interactuando con el prototipo y luego una pequeña entrevista para recopilar información.
 
 
- 
+
+
 
 ****Entrevistas****
 
@@ -215,41 +218,6 @@ Finalmente, se les hicieron algunas preguntas acerca de su satisfacción, usabil
 Estas fueron algunas de las respuestas que usamos para ir mejorando el prototipo:
 
   
-
-- Usuarios Camila y Manuel: Pude Encontrar el Pokémon, pero no me había dado cuenta que uno podía bajar y ver un listado de Pokémon, es tan grande la imagen del inicio que solo se ve ella y el menú de filtrar.
-
-  
-
-  
-
-- Usuarios Daniel y Carla: Se ven muy grandes los Pokemones en pantalla escritorio y pienso que para ir cargando mas Pokemones con el boton "Cargar más" seria muy tedioso ya que solo va mostrando de seis en seis.
-
-
-- Usuario Camila: La pagina no indica en ningún lado que los pokemones son de la Region de Kanto
-
-- Usuario Carla: La portada se me hace muy simple solo tiene el logo Pokemón y una imagen de fondo. Quizás podrían colocar una imagen de algún Pokemon.
-
-A partir del testeo previo se decidieron realizar algunas modificaciones al prototipo inicial:
-
-  
-1. Creación de una portada personalizada para la aplicación.
-
-
-2. Reducción del tamaño de la portada y así hacer entender al usuario que abajo hay mas información y que no solo se trata de una portada y un menú de filtrado.
-
-
-
-  
-
-A la imagen de fondo se le aplico un mayor desenfoque para que la mirada del usuario se centre en el logo. Se creó la imagen de "KANTO" simulando el logo principal y añadimos un Pokémon para llamar la atención y una imagen de césped para simular que el Pokémon y el logo estuvieran en un plano principal.
-
- 
-
-4. Sacamos el botón "Ver listado Completo" y así se muestra todos los Pokemones de la Región automáticamente para luego filtrar sin problema.
-
-
-5. Aumentamos la cantidad de Pokemones visibles de 3 a 6 por fila en el tamaño de escritorio.
-
   
 
 ### Storyboard  —  Usando la App
@@ -291,8 +259,7 @@ Movie Gamer
 ## Etapa 5 - El Diseño final
 
   
-La meta del la aplicación web es crear un proceso rápido de resolución de búsqueda de un pokemon. La versión final esta disponible en versión Demo.
-
+La meta del la aplicación web es crear un proceso rápido de resolución de búsqueda de peliculas basadas en videojuegos, una aplicacion amigable y facil de utilizar por niños.
 
 
 Para realizar el diseño final, usamos el programa [Zeplin](https://app.zeplin.io/project/5c4884e635c1a337cdb26f84/dashboard) pasar los elementos del prototipado a código HTML, CSS y JS.
